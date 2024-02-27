@@ -27,7 +27,7 @@ return [
         |
         */
 
-        'secure' => true,
+        'secure' => false,
 
         /*
         |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
         |
         */
 
-        'driver' => env('IMAGE_MANIPULATION_DRIVER', 'gd'),
+        'driver' => env('IMAGE_MANIPULATION_DRIVER', 'imagick'),
 
         /*
         |--------------------------------------------------------------------------

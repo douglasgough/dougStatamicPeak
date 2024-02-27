@@ -2,14 +2,29 @@
 id: home
 blueprint: page
 title: Home
-updated_by: ceaa75bd-bc37-4a8b-b0f2-b7af70e58b0e
-updated_at: 1693487994
+updated_by: a9229c8b-3d44-4218-b33e-7f08745c5614
+updated_at: 1709058573
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 page_builder:
+  -
+    id: lt4ogat0
+    title: 'Full Stack Web Developer'
+    text: 'Website design & development'
+    buttons:
+      -
+        id: lt4oiary
+        label: Button
+        link_type: url
+        target_blank: false
+        url: '#bob'
+        button_type: button
+    image: joe-dudeck-n-82spmgmck-unsplash.jpg
+    type: full_width_image
+    enabled: true
   -
     id: T5ZZwBfn
     article:
@@ -104,4 +119,18 @@ page_builder:
             target_blank: true
             url: 'https://peak.1902.studio'
             button_type: inline
+  -
+    id: lt4pboad
+    title: 'Image and Text'
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Some stuff I want to say. Here it is, and it’s really nice!'
+    image: a-peak.jpg
+    image_position: right
+    type: image_and_text
+    enabled: true
 ---

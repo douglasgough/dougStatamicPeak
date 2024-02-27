@@ -15,6 +15,13 @@ fields:
           instructions: 'Interactive blocks.'
           icon: programming-script-code
           sets:
+            call_to_action:
+              display: 'Call to action'
+              instructions: 'Show a call to action.'
+              icon: alert-alarm-bell
+              fields:
+                -
+                  import: call_to_action
             cards:
               display: Cards
               instructions: 'Show linkable cards with text.'
@@ -29,6 +36,13 @@ fields:
               fields:
                 -
                   import: form
+            full_width_image:
+              display: 'Full width image'
+              instructions: 'A full width image with optional text and button(s).'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: full_width_image
             image_credits:
               display: 'Image credits'
               instructions: 'List images with their credits.'
@@ -36,6 +50,13 @@ fields:
               fields:
                 -
                   import: image_credits
+            images_grid:
+              display: 'Images grid'
+              instructions: 'A multi row image grid.'
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: images_grid
         text:
           display: Text
           instructions: 'Text based blocks.'
@@ -48,6 +69,13 @@ fields:
               fields:
                 -
                   import: article
+            cards:
+              display: Cards
+              instructions: 'Cards that link using the button fieldset.'
+              icon: link
+              fields:
+                -
+                  import: cards
             clients:
               display: Clients
               instructions: 'A Clients logo cloud.'
@@ -55,6 +83,20 @@ fields:
               fields:
                 -
                   import: clients
+            columns:
+              display: Columns
+              instructions: 'Text columns with optional images and buttons.'
+              icon: layout-two-columns
+              fields:
+                -
+                  import: columns
+            divider:
+              display: Divider
+              instructions: 'A visual divider between blocks.'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: divider
             faq:
               display: FAQ
               instructions: 'List frequently asked questions in an accordion.'
@@ -62,6 +104,13 @@ fields:
               fields:
                 -
                   import: faq
+            image_and_text:
+              display: 'Image and text'
+              instructions: 'An image and text side by side.'
+              icon: text-formatting-image-left
+              fields:
+                -
+                  import: image_and_text
             index_content:
               display: 'Index content'
               instructions: 'Render the currently mounted entries if available.'
@@ -76,6 +125,13 @@ fields:
               fields:
                 -
                   import: news
+            text_columns:
+              display: 'Text columns'
+              instructions: 'Text wrapping in two columns.'
+              icon: layout-three-columns
+              fields:
+                -
+                  import: text_columns
       instructions_position: above
       visibility: visible
       previews: true
