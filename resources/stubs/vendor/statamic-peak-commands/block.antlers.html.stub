@@ -1,0 +1,11 @@
+{{#
+    @name {{ name }}
+    @desc The {{ name }} page builder block.
+    @set page.page_builder.{{ filename }}
+#}}
+
+<!-- /page_builder/_{{ filename }}.antlers.html -->
+{{ partial:page_builder/block }}
+    {{ partial:typography/h3 content="🔧<br>{{ name }}" class="span-content text-center" }}
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_{{ filename }}.antlers.html -->
